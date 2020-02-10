@@ -6,8 +6,8 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 
-#include "../include/spdlog/spdlog.h"
-#include "../include/spdlog/sinks/basic_file_sink.h"
+#include "../spdlog/spdlog.h"
+#include "../spdlog/sinks/basic_file_sink.h"
 
 constexpr int PORT = 12345;
 
